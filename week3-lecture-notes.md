@@ -290,6 +290,7 @@ This means multiplying by $A$ only *scales* $v$, but does not its direction.
 ### PCA
 
 So PCA finds the axes in which the data varies the most. These axes are called **principal components**. To find those, we compute the **empirical covariance matrix**:
+
 $$
 S = \frac{1}{N} \sum_{i=1}^N \tilde{x}_i \tilde{x}_i^\top
 $$
